@@ -20,13 +20,37 @@
 } 
 
 article{
-    background-color: lime;
+    background-color: blue;
 }
+
+footer{
+    grid-area: footer;
+    background-color:red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+nav{
+    background-color: blueviolet;
+
+}
+
+section{
+    background-color: white;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    border: 50cm;
+}
+
+
 
 body{
     display: grid;
-    grid-template-areas: 'header' 'section' 'article' 'footer';
-    grid-template-rows: 38vw 6vw 15vw 20vw 30vw;
+    grid-template-areas: 'header' 'section' 'navbar' 'article' 'footer';
+    grid-template-rows: 38vw 30vw 15vw 15vw 15vw 15vw;
     grid-template-columns: 100vw;
     justify-content: center;
 }
@@ -37,12 +61,88 @@ header{
     background-size: cover;
 }
 
-footer{
-    background-color: blue;
+#engrenagem {
+
+    width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid rgb(130, 233, 130);
+    background-color:rgb(130, 233, 130);
+    text-align: center; line-height: 50%;
 }
 
-section{
-    background-color: darkslategrey;
+    
+#estrela {
+   
+    width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid rgb(130, 233, 130);
+    background-color:rgb(130, 233, 130);
+    text-align: center; line-height: 30%;
+   
+
+}
+
+#globo{
+    width: 100px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    border: 2px solid rgb(130, 233, 130);
+    background-color:rgb(130, 233, 130);
+    text-align: center; line-height: 50%;
+    
 }
 
 
+#espacoIcone{
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#tema1{
+    text-align: center;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tema2{
+    text-align: center;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#tema3{
+    text-align: center;
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#tudosection{
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+#TEMA{
+    width: 1300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
