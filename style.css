@@ -22,21 +22,6 @@ article{
     background-color: blue;
 }
 
-footer{
-    grid-area: footer;
-    background-color:red;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-
-}
-nav{
-    background-color: blueviolet;
-
-}
-
-
 
 
 body{
@@ -106,9 +91,34 @@ p {
     justify-content: space-between;  
 }
 
+/* AQUI COMEÇA O FOOTER */
+
+footer{
+    grid-area: footer;
+    background-color:rgb(221, 221, 221);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
 
 
 
+
+a:-webkit-any-link {
+    color: rgb(65, 65, 65);
+    font-size: 16pt;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+
+nav {
+    justify-content: space-around;
+    display: flex;
+    width: 55vw;
+}
 
 
 
