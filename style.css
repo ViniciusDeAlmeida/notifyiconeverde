@@ -1,4 +1,3 @@
-
 .botoes{
     display: flex;
     align-items: flex-start;
@@ -37,20 +36,13 @@ nav{
 
 }
 
-section{
-    background-color: white;
-    width: 1250px;
-    display: flex;
-    justify-content: space-around;
-    border: 50cm;
-}
 
 
 
 body{
     display: grid;
-    grid-template-areas: 'header' 'section' 'navbar' 'article' 'footer';
-    grid-template-rows: 38vw 30vw 15vw 15vw 15vw 15vw;
+    grid-template-areas: 'header''section''navbar''article''footer';
+    grid-template-rows: 38vw 20vw 15vw 15vw 15vw;
     grid-template-columns: 100vw;
     justify-content: center;
 }
@@ -61,88 +53,63 @@ header{
     background-size: cover;
 }
 
-#engrenagem {
+/* AQUI COMEÇA A SECTION */
 
+section{
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Hind Madurai', sans-serif; 
+    grid-area: section;
+    background-color:white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    flex-direction: row ;   
+}
+
+.engrenagem {
     width: 100px;
     height: 100px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 100%;
-    border: 2px solid rgb(130, 233, 130);
-    background-color:rgb(130, 233, 130);
-    text-align: center; line-height: 50%;
+    background-color:rgb(130, 233, 130); 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 135px;
+    justify-content: space-between;   
 }
 
-    
-#estrela {
-   
+p {
+    display: flow-root;
+    margin-block-end: 1em;
+    line-height: 15px;
+    text-align: unset;
+}
+
+.estrela{
     width: 100px;
     height: 100px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 100%;
-    border: 2px solid rgb(130, 233, 130);
-    background-color:rgb(130, 233, 130);
-    text-align: center; line-height: 30%;
-   
-
+    background-color:rgb(130, 233, 130); 
+    text-align: center;
+    vertical-align: middle;
+    line-height: 135px;
+    justify-content: space-between;    
 }
 
-#globo{
+.globo{
     width: 100px;
     height: 100px;
-    display:flex;
-    align-items: center;
-    justify-content: center;
     border-radius: 100%;
-    border: 2px solid rgb(130, 233, 130);
-    background-color:rgb(130, 233, 130);
-    text-align: center; line-height: 50%;
-    
-}
-
-
-#espacoIcone{
-    width: 1250px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#tema1{
+    background-color:rgb(130, 233, 130); 
     text-align: center;
-    width: 1250px;
-    display: flex;
-    justify-content: space-around;
-}
-
-#tema2{
-    text-align: center;
-    width: 1250px;
-    display: flex;
-    justify-content: space-around;
-}
-
-#tema3{
-    text-align: center;
-    width: 1250px;
-    display: flex;
-    justify-content: space-around;
+    vertical-align: middle;
+    line-height: 135px;
+    justify-content: space-between;  
 }
 
 
-#tudosection{
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
 
-}
-#TEMA{
-    width: 1300px;
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-}
+
+
+
+
+
